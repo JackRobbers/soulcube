@@ -4,7 +4,7 @@ function setup() {
   spr = createSprite(
     width/2, height/2, 20, 20);
   spr.shapeColor = color(255);
-  spr.velocity.y = 0.5;
+  spr.velocity.y = 0.2;
 }
 function draw() {
   background(50);
